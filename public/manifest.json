@@ -1,6 +1,6 @@
 {
-  "name": "Profile Interior Design",
-  "short_name": "ProfileInteriorDesign",
+  "name": "Profile Interior Invoices Generator",
+  "short_name": "ProfileInteriorInvoices",
   "description": "Generate and manage invoices effortlessly",
   "start_url": "/",
   "display": "standalone",
