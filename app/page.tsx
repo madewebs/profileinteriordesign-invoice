@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col p-4 md:p-8 lg:p-24 bg-gradient-to-br from-slate-50 to-slate-100">
       <div className="max-w-5xl mx-auto flex-grow w-full">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Invoice Generator</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Profile Interior Design Invoice Generator</h1>
         <OrderForm />
       </div>
       <footer className="mt-8 text-center text-slate-500 text-sm">
