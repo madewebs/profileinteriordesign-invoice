@@ -1,10 +1,21 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
+import { InstallPrompt } from '@/components/install-prompt'
 
 export const metadata: Metadata = {
   title: 'Invoice Generator',
   description: 'Generate and manage invoices effortlessly',
   generator: 'Abhin.c',
+  manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Invoice Generator',
+  },
+}
+
+export const viewport: Viewport = {
+  themeColor: '#0f172a',
 }
 
 export default function RootLayout({
@@ -14,7 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <InstallPrompt />
+        {children}
+      </body>
     </html>
   )
 }
