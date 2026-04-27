@@ -293,12 +293,12 @@ export const InvoicePDF = ({ data }: { data: InvoiceData }) => {
             <View style={styles.companyInfo}>
               <View style={styles.companyInfoRow}>
                 <Text style={styles.companyInfoIcon}></Text>
-                <Text style={styles.companyInfoText}>Feroke, Calicut, Kerala. 676317</Text>
+                <Text style={styles.companyInfoText}>Feroke, Calicut, Kerala. 673631</Text>
               </View>
 
               <View style={styles.companyInfoRow}>
                 <Text style={styles.companyInfoIcon}></Text>
-                <Text style={styles.companyInfoText}>+91 8129867174</Text>
+                <Text style={styles.companyInfoText}>+91 9961547174</Text>
               </View>
 
               <View style={styles.companyInfoRow}>
@@ -377,7 +377,7 @@ export const InvoicePDF = ({ data }: { data: InvoiceData }) => {
           <Text style={styles.thankYou}>Thank you for your Purchase!</Text>
           <Text style={styles.footerText}>This is a computer-generated invoice and does not require a signature.</Text>
           <Text style={styles.footerText}>
-            For any queries, please contact us at www.profileinteriorsdesign.in | +91 8129867174
+            For any queries, please contact us at www.profileinteriorsdesign.in | +91 9961547174
           </Text>
         </View>
       </Page>
